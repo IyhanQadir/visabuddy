@@ -43,7 +43,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} id="navbar">
       <div className="nav-container">
         <a href="#" className="logo" onClick={(e) => scrollToSection(e, 'home')}>
-          <img src="/logovb.png" alt="VisaBuddy Logo" />
+          <img src="/logovb.png" alt="" />
           VisaBuddy
         </a>
         <div className="menu-toggle" id="mobile-menu" onClick={toggleMenu}>
