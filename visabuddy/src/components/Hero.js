@@ -3,14 +3,14 @@ import React from 'react';
 const Hero = () => {
   return (
 <header id="home" className="hero">
-  <video
+  {/* <video
     className="hero-video"
     src="/plane.mp4"
     autoPlay
     loop
     muted
     playsInline
-  ></video>
+  ></video> */}
 
   {/* Overlay (keeps your gradient look) */}
   <div className="hero-overlay"></div>
