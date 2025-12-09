@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <div className="office-location">
-              <p>Office: Mumbai, India</p>
+              <p>Office: India</p>
             </div>
           </div>
           <div className="contact-item">
