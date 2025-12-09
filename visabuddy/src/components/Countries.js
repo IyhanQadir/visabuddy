@@ -1,43 +1,29 @@
 import React from 'react';
 
 const Countries = () => {
+  const countries = [
+    { flag: 'https://flagcdn.com/pl.svg', name: 'Poland', alt: 'Poland' },
+    { flag: 'https://flagcdn.com/cz.svg', name: 'Czech Republic', alt: 'Czech Republic' },
+    { flag: 'https://flagcdn.com/rs.svg', name: 'Serbia', alt: 'Serbia' },
+    { flag: 'https://flagcdn.com/hu.svg', name: 'Hungary', alt: 'Hungary' },
+    { flag: 'https://flagcdn.com/ro.svg', name: 'Romania', alt: 'Romania' },
+    { flag: 'https://flagcdn.com/lv.svg', name: 'Latvia', alt: 'Latvia' },
+    { flag: 'https://flagcdn.com/lt.svg', name: 'Lithuania', alt: 'Lithuania' },
+    { flag: 'https://flagcdn.com/sk.svg', name: 'Slovakia', alt: 'Slovakia' },
+    { flag: 'https://flagcdn.com/bg.svg', name: 'Bulgaria', alt: 'Bulgaria' }
+  ];
+
   return (
     <section className="countries" id="countries">
       <div className="container">
-        <h2>Specialized in Eastern Europe & Beyond</h2>
+        <h2>Immigration Expertise Across Eastern Europe</h2>
         <div className="flag-grid">
-          <div className="flag-card">
-            <img src="https://flagcdn.com/pl.svg" alt="Poland" />
-            <p>Poland</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/cz.svg" alt="Czech Republic" />
-            <p>Czech Republic</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/hu.svg" alt="Hungary" />
-            <p>Hungary</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/ro.svg" alt="Romania" />
-            <p>Romania</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/sk.svg" alt="Slovakia" />
-            <p>Slovakia</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/bg.svg" alt="Bulgaria" />
-            <p>Bulgaria</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/de.svg" alt="Germany" />
-            <p>Germany</p>
-          </div>
-          <div className="flag-card">
-            <img src="https://flagcdn.com/nl.svg" alt="Netherlands" />
-            <p>Netherlands</p>
-          </div>
+          {countries.map((country, index) => (
+            <div key={index} className="flag-card">
+              <img src={country.flag} alt={country.alt} />
+              <p>{country.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

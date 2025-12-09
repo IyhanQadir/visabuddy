@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <h2>Ready to Start Your Journey?</h2>
+        <h2>Let’s Get Started</h2>
         <p style={{maxWidth: '700px', margin: '1.5rem auto'}}>Get a free eligibility check or book a consultation today.</p>
         <form>
           <div className="form-group">
@@ -25,6 +25,26 @@ const Contact = () => {
           </div>
           <button type="submit" className="btn btn-primary">Submit & Get Free Assessment</button>
         </form>
+        <div className="contact-info">
+          <div className="contact-item">
+            <i className="fas fa-phone"></i>
+            <p>+1-234-567-8900</p>
+          </div>
+          <div className="contact-item">
+            <i className="fab fa-whatsapp"></i>
+            <a href="https://wa.me/12345678900" className="whatsapp-btn" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          </div>
+          <div className="contact-item">
+            <i className="fas fa-map-marker-alt"></i>
+            <div className="office-location">
+              <p>Office: Mumbai, India</p>
+            </div>
+          </div>
+          <div className="contact-item">
+            <i className="fas fa-envelope"></i>
+            <p>info@visabuddy.com</p>
+          </div>
+        </div>
       </div>
     </section>
   );

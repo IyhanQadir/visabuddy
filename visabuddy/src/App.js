@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TrustBar from './components/TrustBar';
+import WhyChooseUs from './components/WhyChooseUs';
 import Services from './components/Services';
+import InternshipProgram from './components/InternshipProgram';
 import Countries from './components/Countries';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -16,7 +18,9 @@ function App() {
       <Navbar />
       <Hero />
       <TrustBar />
+      <WhyChooseUs />
       <Services />
+      <InternshipProgram />
       <Countries />
       <Testimonials />
       <FAQ />
