@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="container">
         <h2>Let’s Get Started</h2>
         <p style={{maxWidth: '700px', margin: '1.5rem auto'}}>Get a free eligibility check or book a consultation today.</p>
-        <form>
+        {/* <form>
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
             <input type="text" id="name" placeholder="Full Name" required />
@@ -24,7 +24,7 @@ const Contact = () => {
             <input type="text" id="country" placeholder="Interested Country" />
           </div>
           <button type="submit" className="btn btn-primary">Submit & Get Free Assessment</button>
-        </form>
+        </form> */}
         <div className="contact-info">
           <div className="contact-item">
             <i className="fas fa-phone"></i>
