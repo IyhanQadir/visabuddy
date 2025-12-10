@@ -448,11 +448,11 @@ section {
   max-width: 600px;
   margin: 0 auto;
 }
-.contact form {
+/* .contact form {
   margin: 0;
-  display: block;
-}
-.form-group {
+  display: block; */
+
+/* .form-group {
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -494,7 +494,7 @@ section {
   background:var(--primary-dark); 
   transform:translateY(-4px); 
   box-shadow:0 10px 20px rgba(37,99,235,.3); 
-}
+} */
 
 .testimonials h2 {
   text-align: center;
