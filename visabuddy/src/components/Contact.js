@@ -28,11 +28,11 @@ const Contact = () => {
         <div className="contact-info">
           <div className="contact-item">
             <i className="fas fa-phone"></i>
-            <p>+1-234-567-8900</p>
+            <p>+91-7511177777</p>
           </div>
           <div className="contact-item">
             <i className="fab fa-whatsapp"></i>
-            <a href="https://wa.me/12345678900" className="whatsapp-btn" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+            <a href="https://wa.me/7511177777" className="whatsapp-btn" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
           </div>
           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
