@@ -6,6 +6,19 @@ const Contact = () => {
       <div className="container">
         <h2>Let’s Get Started</h2>
         <p style={{maxWidth: '700px', margin: '1.5rem auto'}}>Get a free eligibility check or book a consultation today.</p>
+
+        <p style={{ fontSize: '0.85rem', color: 'var(--gray)', marginBottom: '1rem' }}>We'll reply within 24 hours with your personalized guide.</p>
+          {/* Subtle T&C Link */}
+          <p style={{ fontSize: '0.8rem', color: 'var(--gray)', lineHeight: '1.4' }}>
+            By inquiring, you agree to our{' '}
+            <a href={`${process.env.PUBLIC_URL}/terms-and-conditions.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
+              Terms & Conditions
+            </a>{' '}
+            and{' '}
+            <a href={`${process.env.PUBLIC_URL}/privacy-policy.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
+              Privacy Policy
+            </a>.
+          </p>
         {/* <form>
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
