@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div className="contact-item">
             <i className="fas fa-envelope"></i>
-            <p>info@visabuddy.com</p>
+            <p>connect@studiencollege.com</p>
           </div>
         </div>
       </div>
