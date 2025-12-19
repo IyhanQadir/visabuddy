@@ -13,7 +13,7 @@ const Contact = () => {
             By inquiring, you agree to our{' '}
             <a href={`${process.env.PUBLIC_URL}/terms-and-conditions.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
               Terms & Conditions
-            </a>{' '}
+            </a>{' '},
             <a href={`${process.env.PUBLIC_URL}/refund-policy.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
               Refund and Cancellation Policy
             </a>,
