@@ -14,6 +14,9 @@ const Contact = () => {
             <a href={`${process.env.PUBLIC_URL}/terms-and-conditions.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
               Terms & Conditions
             </a>{' '}
+            <a href={`${process.env.PUBLIC_URL}/refund-policy.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
+              Refund and Cancellation Policy
+            </a>,
             and{' '}
             <a href={`${process.env.PUBLIC_URL}/privacy-policy.pdf`} download target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary)', textDecoration: 'underline', fontWeight: 500 }}>
               Privacy Policy
