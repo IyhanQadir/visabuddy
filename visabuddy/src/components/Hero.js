@@ -4,14 +4,15 @@ const Hero = () => {
   return (
     <header id="home" className="hero">
       <div className="hero-content">
-        <h1>Your Gateway to Global Immigration Success</h1>
+        <h1>Expert Visa Assistance for Eastern Europe: Poland, Czech Republic & Beyond</h1> {/* H1 with primary keywords */}
         <p className="sub">
-          Expert Visa Assistance, Legal Immigration Support & Professional Guidance for Eastern European Countries and Beyond.
+          Specialized immigration support for work visas, student placements, and tourist Schengen applications from India to Eastern Europe.
         </p>
         <p className="intro">
-        VisaBuddy is a vertical of Studiencollege.We are a trusted immigration facilitation and visa assistance company specializing in complex visa regulations and immigration laws, particularly across Eastern European countries where procedures can be challenging and compliance-heavy. With a qualified team of immigration experts and certified legal partners, we provide end-to-end guidance — from documentation to legal submission and follow-through.
+          VisaBuddy is your trusted partner for navigating complex visa regulations in Poland, Hungary, Romania, and more. VisaBuddy is a vertical of studiencollege, with 15+ years of experience and a 98% approval rate, our certified experts handle everything—from eligibility checks and document preparation to embassy submissions and appeals. Whether you're seeking a Poland work visa, Czech student visa, or family reunification in Slovakia, we provide end-to-end guidance tailored for Indian applicants. Start your journey to global mobility today.
         </p>
-        <a href="#contact" className="btn btn-outline">Book a Consultation</a>
+        <a href="#contact" className="btn btn-primary">Get Free Eligibility Check</a> {/* Action-oriented CTA */}
+        <a href="#services" className="btn btn-outline">Explore Visa Services</a> {/* Internal link for SEO flow */}
       </div>
     </header>
   );
