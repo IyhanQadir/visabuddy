@@ -569,6 +569,10 @@ section {
   max-width: 600px;
   margin: 0 auto;
 }
+.contact .location{
+  font-style: italic;
+  font-size: small;
+}
 /* .contact form {
   margin: 0;
   display: block; */

@@ -46,7 +46,7 @@ const Navbar = () => {
       <img src={`${process.env.PUBLIC_URL}/logovb.png`} alt="VisaBuddy Logo" />
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
     <span style={{ fontSize: '1.8rem', fontWeight: 700 }}>VisaBuddy</span>
-    <span style={{ fontSize: '0.8rem', fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.8)', marginTop: '0.2rem' }}>redefining boundaries</span>
+    <span style={{ fontSize: '0.8rem', fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.8)', marginTop: '0.2rem' }}>redefining boundaries!</span>
   </div>
     </a>
         <div className="menu-toggle" id="mobile-menu" onClick={toggleMenu}>
