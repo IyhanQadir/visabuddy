@@ -32,6 +32,11 @@ const Services = () => {
             <h3>Document Support & Compliance</h3>
             <p>Apostille, notarization, embassy processing, translation, attestation</p>
           </div>
+          <div className="card">
+            <i className="fas fa-shield-alt"></i>
+            <h3>Asylum Seekers and Refugees</h3>
+            <p>Compassionate support for asylum applications, including documentation, legal consultations, and procedural guidance to safe havens in Eastern Europe.</p>
+          </div>
         </div>
         <a href="#contact" className="btn btn-primary" style={{marginTop: '2rem'}}>➡️ View All Services</a>
       </div>

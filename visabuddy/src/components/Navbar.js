@@ -54,9 +54,10 @@ const Navbar = () => {
         </div>
         <div className={`nav-menu ${isMenuActive ? 'active' : ''}`} id="nav-menu">
           <a href="#home" onClick={(e) => scrollToSection(e, 'home')}>Home</a>
+          <a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a>
           <a href="#services" onClick={(e) => scrollToSection(e, 'services')}>Services</a>
           <a href="#countries" onClick={(e) => scrollToSection(e, 'countries')}>Countries</a>
-          <a href="#testimonials" onClick={(e) => scrollToSection(e, 'testimonials')}>Testimonials</a>
+          {/* <a href="#testimonials" onClick={(e) => scrollToSection(e, 'testimonials')}>Testimonials</a> */}
           <a href="#faq" onClick={(e) => scrollToSection(e, 'faq')}>FAQ</a>
           <a href="#contact" className="btn btn-primary" style={{padding: '0.8rem 2rem', margin: 0}} onClick={(e) => scrollToSection(e, 'contact')}>Start Application</a>
         </div>
