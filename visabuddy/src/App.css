@@ -573,6 +573,12 @@ section {
   font-style: italic;
   font-size: small;
 }
+.contact .location-avl{
+  flex: 1;
+  flex-direction: row;
+  min-width: 200px;
+  max-width: 200px;
+}
 /* .contact form {
   margin: 0;
   display: block; */

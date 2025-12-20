@@ -51,16 +51,18 @@ const Contact = () => {
             <a href="https://wa.me/7511177777" className="whatsapp-btn" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
           </div>
           <div className="contact-item">
+            <i className="fas fa-envelope"></i>
+            <p>connect@studiencollege.com</p>
+          </div>
+        </div>
+        <div className='location-avl'>   
+        <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <div className="office-location">
               <p>Base office: Kerela</p>
             </div>
-          </div>
-          <div className="contact-item">
-            <i className="fas fa-envelope"></i>
-            <p>connect@studiencollege.com</p>
-          </div>
-          <div className="contact-item">
+          </div>      
+           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <div className="office-location">
               <p>Central office: Mumbai</p>
@@ -71,8 +73,7 @@ const Contact = () => {
             <div className="office-location">
               <p>Head Quarter: Kashmir</p>
             </div>
-          </div>
-        </div>
+          </div></div>
         <p className='location'>We are stratergically located all accross the India to achive our goal to serve the entire subcontinent.</p>
       </div>
     </section>
