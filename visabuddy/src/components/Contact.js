@@ -59,8 +59,9 @@ const Contact = () => {
         <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <div className="office-location">
-              <p>Base office: Kerela</p>
+              <p>Head Quarter: Kashmir</p>
             </div>
+          
           </div>      
            <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
@@ -68,10 +69,11 @@ const Contact = () => {
               <p>Central office: Mumbai</p>
             </div>
           </div>
-          <div className="contact-item">
+          
+            <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <div className="office-location">
-              <p>Head Quarter: Kashmir</p>
+              <p>Base office: Kerela</p>
             </div>
           </div></div>
         <p className='location'>We are stratergically located all accross the India to achive our goal to serve the entire subcontinent.</p>
