@@ -369,22 +369,73 @@ section {
   gap:2rem; 
   margin-top:3rem; 
 }
-.card { 
-  background:white; 
-  padding:2.5rem; 
-  border-radius:16px; 
-  box-shadow:0 10px 30px rgba(0,0,0,.08); 
-  transition:all .4s; 
-  text-align:center; 
+.card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  text-align: center;
+  position: relative;
+  overflow: hidden;  /* Hide content initially */
 }
-.card:hover { 
-  transform:translateY(-12px); 
-  box-shadow:0 20px 40px rgba(0,0,0,.15); 
+
+.card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
-.card i { 
-  font-size:3.5rem; 
-  color:var(--primary); 
-  margin-bottom:1.5rem; 
+
+.card-header {
+  position: relative;
+  z-index: 2;  /* Header always visible */
+}
+
+.card-short-desc {
+  margin: 1rem 0 0;
+  color: var(--gray);
+  font-size: 1rem;
+}
+
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 0.5rem;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+.card.open .card-content {
+  max-height: 500px;  /* Adjust based on content */
+  padding: 1.5rem 0.5rem 0;
+}
+
+.card-chevron {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card.open .card-chevron.rotate {
+  transform: rotate(180deg);
+}
+
+/* Ensure grid adapts */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Responsive for expanded cards */
+@media (max-width: 768px) {
+  .card {
+    padding: 2rem;
+  }
+  
+  .card-content {
+    max-height: 400px;  /* Shorter on mobile */
+  }
 }
 .flag-grid {
   display:flex;
