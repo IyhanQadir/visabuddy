@@ -8,7 +8,6 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Services from './components/Services';
 import InternshipProgram from './components/InternshipProgram';
 import Countries from './components/Countries';
-// import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -24,7 +23,6 @@ function App() {
       <Services />
       <InternshipProgram />
       <Countries />
-      {/* <Testimonials /> */}
       <FAQ />
       <Contact />
       <Footer />
