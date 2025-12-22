@@ -58,7 +58,7 @@ const Contact = () => {
         <div className="locations-grid">
               <div className="location-card">
                 <i className="fas fa-map-marker-alt"></i>
-                <h4>HQ: Kashmir Office</h4>
+                <h4>Head Quarters: Kashmir</h4>
                 <div className="map-embed">
                   <iframe 
                     src="YOUR_MUMBAI_MAP_LINK"  // e.g., https://www.google.com/maps/embed?pb=... for Mumbai
@@ -74,7 +74,7 @@ const Contact = () => {
               </div>
               <div className="location-card">
                 <i className="fas fa-map-marker-alt"></i>
-                <h4>Head Office: Mumbai</h4>
+                <h4>Central: Mumbai</h4>
                 <div className="map-embed">
                   <iframe 
                     src="YOUR_KERALA_MAP_LINK"  // e.g., for Kochi or Trivandrum
@@ -90,7 +90,7 @@ const Contact = () => {
               </div>
               <div className="location-card">
                 <i className="fas fa-map-marker-alt"></i>
-                <h4>Base Office: Kerela</h4>
+                <h4>Base: Kerela</h4>
                 <div className="map-embed">
                   <iframe 
                     src="YOUR_KASHMIR_MAP_LINK"  // e.g., for Srinagar
