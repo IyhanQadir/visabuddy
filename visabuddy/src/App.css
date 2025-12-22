@@ -385,34 +385,45 @@ section {
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
+.card:hover:not(.open) {  /* Hover only if not open */
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
 .card-header {
   position: relative;
   z-index: 2;  /* Header always visible */
 }
 
-.card-short-desc {
+.card-fullcontent {
   margin: 1rem 0 0;
   color: var(--gray);
   font-size: 1rem;
 }
 
 .card-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding: 0 0.5rem;
+  max-height: 0 !important;  /* Strict collapse */
+  overflow: hidden !important;  /* No peek on small screens */
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease;
+  padding: 0 !important;  /* Zero padding on collapse */
+  margin: 0 !important;  /* No margin bleed */
   color: var(--gray);
   line-height: 1.6;
 }
 
 .card.open .card-content {
-  max-height: 500px;  /* Adjust based on content */
+  max-height: none !important;  /* Adjust based on content */
   padding: 1.5rem 0.5rem 0;
+  margin: 0;
 }
 
 .card-chevron {
   font-size: 1rem;
   transition: transform 0.3s ease;
+  color: var(--gray);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .card.open .card-chevron.rotate {
@@ -426,15 +437,36 @@ section {
   gap: 2rem;
   margin-top: 3rem;
 }
-
-/* Responsive for expanded cards */
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
   .card {
     padding: 2rem;
   }
   
   .card-content {
-    max-height: 400px;  /* Shorter on mobile */
+    padding: 0 !important;  /* Re-enforce zero on tablet */
+  }
+  
+  .card.open .card-content {
+    padding: 1rem 0.5rem 1.5rem !important;  /* Compact open state */
+  }
+  
+  .card-short-desc {
+    font-size: 0.95rem;  /* Smaller text to fit */
+  }
+}
+/* Responsive for expanded cards */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .card-content {
+    font-size: 0.9rem;
   }
 }
 .flag-grid {
