@@ -10,7 +10,7 @@ const FAQ = () => {
   const faqs = [
     { question: "How long does it take to get a visa?", answer: "Processing time varies from 7 days (express) to 90 days depending on country and visa type." },
     { question: "Do you guarantee visa approval?", answer: "No ethical company can guarantee approval, but our 98% success rate speaks for itself." },
-    { question: "What documents do I need?", answer: "We provide a personalized checklist after your free eligibility assessment." }
+    { question: "What documents do I need?", answer: "We provide a personalized checklist after your eligibility assessment." }
   ];
 
   return (
