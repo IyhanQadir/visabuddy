@@ -55,27 +55,56 @@ const Contact = () => {
             <p>connect@studiencollege.com</p>
           </div>
         </div>
-        <div className='location-avl'>   
-        <div className="contact-item">
-            <i className="fas fa-map-marker-alt"></i>
-            <div className="office-location">
-              <p>Head Quarter: Kashmir</p>
+        <div className="locations-grid">
+              <div className="location-card">
+                <i className="fas fa-map-marker-alt"></i>
+                <h4>HQ: Kashmir Office</h4>
+                <div className="map-embed">
+                  <iframe 
+                    src="YOUR_MUMBAI_MAP_LINK"  // e.g., https://www.google.com/maps/embed?pb=... for Mumbai
+                    width="100%" 
+                    height="200" 
+                    style={{border:0}} 
+                    allowFullScreen="" 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Kashmir Office Map"
+                  ></iframe>
+                </div>
+              </div>
+              <div className="location-card">
+                <i className="fas fa-map-marker-alt"></i>
+                <h4>Head Office: Mumbai</h4>
+                <div className="map-embed">
+                  <iframe 
+                    src="YOUR_KERALA_MAP_LINK"  // e.g., for Kochi or Trivandrum
+                    width="100%" 
+                    height="200" 
+                    style={{border:0}} 
+                    allowFullScreen="" 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Mumbai Office Map"
+                  ></iframe>
+                </div>
+              </div>
+              <div className="location-card">
+                <i className="fas fa-map-marker-alt"></i>
+                <h4>Base Office: Kerela</h4>
+                <div className="map-embed">
+                  <iframe 
+                    src="YOUR_KASHMIR_MAP_LINK"  // e.g., for Srinagar
+                    width="100%" 
+                    height="200" 
+                    style={{border:0}} 
+                    allowFullScreen="" 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Kerela Office Map"
+                  ></iframe>
+                </div>
+              </div>
             </div>
-          
-          </div>      
-           <div className="contact-item">
-            <i className="fas fa-map-marker-alt"></i>
-            <div className="office-location">
-              <p>Central office: Mumbai</p>
-            </div>
-          </div>
-          
-            <div className="contact-item">
-            <i className="fas fa-map-marker-alt"></i>
-            <div className="office-location">
-              <p>Base office: Kerela</p>
-            </div>
-          </div></div>
         <p className='location'>We are stratergically located all accross the India to achive our goal to serve the entire subcontinent.</p>
       </div>
     </section>
