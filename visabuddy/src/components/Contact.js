@@ -105,7 +105,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-        <p className='location'>We are stratergically located all accross the India to achive our goal to serve the entire subcontinent.</p>
+        <p className='location'>We are strategically located all accross the India to achieve our goal to serve the entire subcontinent.</p>
       </div>
     </section>
   );
