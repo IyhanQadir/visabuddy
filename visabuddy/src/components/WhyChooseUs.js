@@ -1,19 +1,25 @@
 import React from 'react';
+import img1 from '../images/img-1.jpg';  // Relative import from components/ to images/
+import img2 from '../images/img-2.jpg';
+import img3 from '../images/img-3.jpg';
+import img4 from '../images/img-4.jpg';
+import img5 from '../images/img-5.jpg';
+import img6 from '../images/img-6.jpg';
 
 const WhyChooseUs = () => {
   const features = [
-    { title: 'Expertise in Complex Visa Systems', image: './img-1.jpg' },
-    { title: 'Fully Compliant Legal Guidance', image: './img-2.jpg' },
-    { title: 'Multilingual Support', image: './img-3.jpg' },
-    { title: 'Partnerships with Certified Immigration Lawyers', image: './img-4.jpg' },
-    { title: 'End-to-End Application Management', image: './img-5.jpg' },
-    { title: 'Internship & Education Support Services', image: './img-6.jpg' }
+    { title: 'Expertise in Complex Visa Systems', image: img1 },
+    { title: 'Fully Compliant Legal Guidance', image: img2 },
+    { title: 'Multilingual Support', image: img3 },
+    { title: 'Partnerships with Certified Immigration Lawyers', image: img4 },
+    { title: 'End-to-End Application Management', image: img5 },
+    { title: 'Internship & Education Support Services', image: img6 }
   ];
 
   return (
     <section className="whychooseus" id="whychooseus">
       <div className="container">
-        <h2>Why Choose Us</h2>
+        <h2>Why Choose Us?</h2>
         <div className="why-grid">
           {features.map((feature, index) => (
             <div key={index} className="why-card">
