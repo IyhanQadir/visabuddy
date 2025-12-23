@@ -59,7 +59,7 @@ const Navbar = () => {
           <a href="#countries" onClick={(e) => scrollToSection(e, 'countries')}>Countries</a>
           {/* <a href="#testimonials" onClick={(e) => scrollToSection(e, 'testimonials')}>Testimonials</a> */}
           <a href="#faq" onClick={(e) => scrollToSection(e, 'faq')}>FAQ</a>
-          <a href="#contact" className="btn btn-primary" style={{padding: '0.8rem 2rem', margin: 0}} onClick={(e) => scrollToSection(e, 'contact')}>Start Application</a>
+          <a href="https://wa.me/7511177777" className="btn btn-primary" style={{padding: '0.8rem 2rem', margin: 0}}> <i className="fab fa-whatsapp"></i> Chat with us! </a>
         </div>
       </div>
     </nav>
