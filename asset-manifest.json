@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visabuddy/static/css/main.4664e4a7.css",
-    "main.js": "/visabuddy/static/js/main.e1b94933.js",
+    "main.js": "/visabuddy/static/js/main.edea9765.js",
     "static/media/contact-bg.jpg": "/visabuddy/static/media/contact-bg.f400112d5a66ac7414be.jpg",
     "static/media/img-5.jpg": "/visabuddy/static/media/img-5.7f01627b8e9fb79f2907.jpg",
     "static/media/img-3.jpg": "/visabuddy/static/media/img-3.014ccfcb3055f924fc1b.jpg",
@@ -12,10 +12,10 @@
     "static/media/img-2.jpg": "/visabuddy/static/media/img-2.1bc5cc3e05b38dc63709.jpg",
     "index.html": "/visabuddy/index.html",
     "main.4664e4a7.css.map": "/visabuddy/static/css/main.4664e4a7.css.map",
-    "main.e1b94933.js.map": "/visabuddy/static/js/main.e1b94933.js.map"
+    "main.edea9765.js.map": "/visabuddy/static/js/main.edea9765.js.map"
   },
   "entrypoints": [
     "static/css/main.4664e4a7.css",
-    "static/js/main.e1b94933.js"
+    "static/js/main.edea9765.js"
   ]
 }
