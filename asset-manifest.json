@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/visabuddy/static/css/main.4664e4a7.css",
-    "main.js": "/visabuddy/static/js/main.edea9765.js",
-    "static/media/contact-bg.jpg": "/visabuddy/static/media/contact-bg.f400112d5a66ac7414be.jpg",
-    "static/media/img-5.jpg": "/visabuddy/static/media/img-5.7f01627b8e9fb79f2907.jpg",
-    "static/media/img-3.jpg": "/visabuddy/static/media/img-3.014ccfcb3055f924fc1b.jpg",
-    "static/media/img-6.jpg": "/visabuddy/static/media/img-6.fc471201a218a9454136.jpg",
-    "static/media/img-4.jpg": "/visabuddy/static/media/img-4.d76a6314251b5dbf9e85.jpg",
-    "static/media/herobg.jpg": "/visabuddy/static/media/herobg.236cb3c879ab356c36a1.jpg",
-    "static/media/img-1.jpg": "/visabuddy/static/media/img-1.7c43b4f37760e97b817f.jpg",
-    "static/media/img-2.jpg": "/visabuddy/static/media/img-2.1bc5cc3e05b38dc63709.jpg",
-    "index.html": "/visabuddy/index.html",
-    "main.4664e4a7.css.map": "/visabuddy/static/css/main.4664e4a7.css.map",
-    "main.edea9765.js.map": "/visabuddy/static/js/main.edea9765.js.map"
+    "main.css": "/static/css/main.ee27d3c1.css",
+    "main.js": "/static/js/main.5b2a1a42.js",
+    "static/media/contact-bg.jpg": "/static/media/contact-bg.f400112d5a66ac7414be.jpg",
+    "static/media/img-5.jpg": "/static/media/img-5.7f01627b8e9fb79f2907.jpg",
+    "static/media/img-3.jpg": "/static/media/img-3.014ccfcb3055f924fc1b.jpg",
+    "static/media/img-6.jpg": "/static/media/img-6.fc471201a218a9454136.jpg",
+    "static/media/img-4.jpg": "/static/media/img-4.d76a6314251b5dbf9e85.jpg",
+    "static/media/herobg.jpg": "/static/media/herobg.236cb3c879ab356c36a1.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.7c43b4f37760e97b817f.jpg",
+    "static/media/img-2.jpg": "/static/media/img-2.1bc5cc3e05b38dc63709.jpg",
+    "index.html": "/index.html",
+    "main.ee27d3c1.css.map": "/static/css/main.ee27d3c1.css.map",
+    "main.5b2a1a42.js.map": "/static/js/main.5b2a1a42.js.map"
   },
   "entrypoints": [
-    "static/css/main.4664e4a7.css",
-    "static/js/main.edea9765.js"
+    "static/css/main.ee27d3c1.css",
+    "static/js/main.5b2a1a42.js"
   ]
 }
