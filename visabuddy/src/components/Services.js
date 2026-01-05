@@ -12,7 +12,7 @@ const Services = () => {
 
   const servicesData = [
     {
-      title: 'Work Visas & Resident Permits',
+      title: 'Global Employer Facilitation',
       // shortDesc: 'Streamlined Schengen visa applications for Poland, Hungary, and Czech Republic—fast processing with full documentation support.',
       fullContent: 'VisaBuddy assists skilled, semi-skilled, and unskilled candidates with employment-based visa pathways and resident permit processes. For candidates requiring eligibility enhancement, structured preparation including language guidance and skill certification pathways is provided prior to application.',
       icon: 'fas fa-passport'
